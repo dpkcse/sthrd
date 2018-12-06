@@ -19,7 +19,9 @@ class Home extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{
-		$this->load->view('index');
+	{	
+		$data = array();
+		$data['title'] = "Home";
+		$this->load->view('index',$data);
 	}
 }

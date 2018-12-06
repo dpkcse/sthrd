@@ -40,13 +40,12 @@
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a class="waves-effect waves-dark" href="./">HOME</a></li> 
-                        <li class=""><a class="waves-effect waves-dark" href="./About">ABOUT US</a></li> 
-                        <li class=""><a class="waves-effect waves-dark" href="./">OUR CLIENTS</a></li> 
-                        <li class=""><a class="waves-effect waves-dark" href="./">PARTNERS</a></li> 
-                        <li class=""><a class="waves-effect waves-dark" href="./">GALLERY</a></li> 
-                        <li class=""><a class="waves-effect waves-dark" href="./">CAREER</a></li> 
-                        <li class=""><a class="waves-effect waves-dark" href="./">CONTACT</a></li> 
+						
+                        <li class="<?php echo ($title == 'Home' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Home">HOME</a></li> 
+                        <li class="<?php echo ( $title == 'About' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/About">ABOUT US</a></li> 
+                        <li class="<?php echo ( $title == 'Traning' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Traning">TRANING</a></li> 
+                        <li class="<?php echo ( $title == 'Gallery' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Gallery">GALLERY</a></li> 
+                        <li class="<?php echo ( $title == 'Contact' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Contact">CONTACT</a></li> 
 					</ul>
                 </div>
             </div>

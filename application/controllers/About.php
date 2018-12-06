@@ -20,6 +20,8 @@ class About extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('about');
+		$data = array();
+		$data['title'] = "About";
+		$this->load->view('about',$data);
 	}
 }
