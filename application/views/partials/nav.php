@@ -14,7 +14,7 @@
 				<div class="col-sm-9">
 					<div class="row">
 						<ul class="info"> 
-							<li><i class="icon-info-blocks material-icons">question_answer</i><span>info@xtream.com</span></li>
+							<li><i class="icon-info-blocks material-icons">question_answer</i><span>info@sthrd.com</span></li>
 							<li><i class="icon-info-blocks material-icons">perm_phone_msg</i><span>+(012) 345 6789</span></li>
 						</ul>
 						<div class="clr"></div>
@@ -41,7 +41,7 @@
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="active"><a class="waves-effect waves-dark" href="./">HOME</a></li> 
-                        <li class=""><a class="waves-effect waves-dark" href="./">ABOUT US</a></li> 
+                        <li class=""><a class="waves-effect waves-dark" href="./About">ABOUT US</a></li> 
                         <li class=""><a class="waves-effect waves-dark" href="./">OUR CLIENTS</a></li> 
                         <li class=""><a class="waves-effect waves-dark" href="./">PARTNERS</a></li> 
                         <li class=""><a class="waves-effect waves-dark" href="./">GALLERY</a></li> 
