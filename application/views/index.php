@@ -11,16 +11,21 @@
                 <div class="flex-caption">
                     <h3>Business  Intellect</h3> 
 					<p>We create best opportunities</p> 
-					 
-                </div>
+				</div>
               </li>
               <li>
                 <img src="<?php echo base_url(); ?>assets/img/slides/2.jpg" alt="" />
                 <div class="flex-caption">
                     <h3>Innovative Minds</h3> 
 					<p>Success depends on productivity</p> 
-					 
-                </div>
+				</div>
+			  </li>
+			  <li>
+                <img src="<?php echo base_url(); ?>assets/img/slides/3.jpg" alt="" />
+                <div class="flex-caption">
+                    <h3>Exploring Knowledge</h3> 
+					<p>Peer to peer knowledge sharing</p> 
+				</div>
               </li>
             </ul>
         </div>
@@ -32,8 +37,11 @@
 		<section class="services">
 	    	<div class="row">
 			<div class="col-md-12">
-				<div class="aligncenter"><h2 class="aligncenter">Our Services</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, <br/>doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</div>
+				<div class="aligncenter"><h2 class="aligncenter">Singapore Training & HR Development Pte. Limited</h2>LSTHRD first invites brainstorming sessions to generate ideas about the training requirement of any project in cooperation with the sponsoring and lead agencies through <br/> training need assessment study and arrange programs approac h to the needs and harnessing the potentialities of the trainees...</div>
 				<br/>
+				<div class="aligncenter">
+					<a href="#" class="btn btn-primary waves-effect waves-dark">CONTACT US</a>
+				</div>
 			</div>
 		</div>
 
@@ -66,7 +74,7 @@
 		</section>
 	</div>
 	</section>
-		<section class="dishes">
+		<!-- <section class="dishes">
 		<div class="container">
 	 	<div class="row">
 			<div class="col-md-12">
@@ -126,7 +134,7 @@
             </div> 
         </div>
 		</div>
-		</section>
+		</section> -->
 
 	
 	<section class="section-padding gray-bg">

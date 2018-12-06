@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from webthemez.com/demo/xtream-corporate-responsive-website-template/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Dec 2018 16:44:14 GMT -->
 <head>
 <meta charset="utf-8">
-<title>Xtream Multi purpose HTML5 Template</title>
+<title>Singapore Training & HR Development Pte. Limited</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
-<meta name="author" content="http://webthemez.com/" />
+<meta name="author" content="Singapore Training & HR Development Pte. Limited" />
 <!-- css --> 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/materialize/css/materialize.min.css" media="screen,projection" />
