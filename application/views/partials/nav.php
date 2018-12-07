@@ -36,16 +36,21 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="./"><i class="icon-info-blocks material-icons">polymer</i>THRD</a>
+                    <a class="navbar-brand" href="./"><img src="<?php echo base_url(); ?>assets/img/logo.png"></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
 						
-                        <li class="<?php echo ($title == 'Home' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Home">HOME</a></li> 
-                        <li class="<?php echo ( $title == 'About' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/About">ABOUT US</a></li> 
-                        <li class="<?php echo ( $title == 'Traning' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Traning">TRANING</a></li> 
-                        <li class="<?php echo ( $title == 'Gallery' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Gallery">GALLERY</a></li> 
-                        <li class="<?php echo ( $title == 'Contact' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Contact">CONTACT</a></li> 
+                        <!-- <li class="<?php echo ($title == 'Home' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Home">HOME</a></li>  -->
+						<li class="<?php echo ($title == 'WHO WE ARE' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Who">WHO WE ARE</a></li> 
+                        <li class="<?php echo ( $title == 'Expertise' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Expertise">Expertise</a></li> 
+                        <li class="<?php echo ( $title == 'Approach' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Approach">Approach</a></li> 
+                        <li class="<?php echo ( $title == 'Facilities' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Facilities">Facilities</a></li>  
+                        <li class="<?php echo ( $title == 'Methods and Media' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Methods">Methods and Media</a></li> 
+                        <li class="<?php echo ( $title == 'Mission' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Mission">Mision</a></li> 
+                        <li class="<?php echo ( $title == 'Vision' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Vision">Vision</a></li>  
+                        <li class="<?php echo ( $title == 'Specialty' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Specialty">Specialty</a></li> 
+                        <li class="<?php echo ( $title == 'Contact' ? 'active':''); ?>"><a class="waves-effect waves-dark" href="<?php echo base_url(); ?>index.php/Contact">Contact</a></li>
 					</ul>
                 </div>
             </div>

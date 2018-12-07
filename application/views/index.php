@@ -37,10 +37,10 @@
 		<section class="services">
 	    	<div class="row">
 			<div class="col-md-12">
-				<div class="aligncenter"><h2 class="aligncenter">Singapore Training & HR Development Pte. Limited</h2>LSTHRD first invites brainstorming sessions to generate ideas about the training requirement of any project in cooperation with the sponsoring and lead agencies through <br/> training need assessment study and arrange programs approac h to the needs and harnessing the potentialities of the trainees...</div>
+				<div class="aligncenter"><h2 class="aligncenter">Singapore Training & HR Development Pte. Limited</h2>Singapore Training & HR Development (STHRD) is a human resource development and capacity building organization that provides multi-sectorial training in Singapore for foreign clients, STHRD organizes ex periential exchange visits and study tours in Singapore for foreign trainees.<br/> Singapore Training & HR Development (STHRD) organizes the training program in a professional manner.</div>
 				<br/>
 				<div class="aligncenter">
-					<a href="#" class="btn btn-primary waves-effect waves-dark">CONTACT US</a>
+					<a href="<?php echo base_url(); ?>index.php/Who"" class="btn btn-primary waves-effect waves-dark">WHO WE ARE</a>
 				</div>
 			</div>
 		</div>
@@ -57,7 +57,7 @@
             <div class="col-sm-4 info-blocks"> 
                 <div class="info-blocks-in">
 				 <i class="icon-info-blocks material-icons">card_travel</i>
-                    <h3>Finance</h3>
+                    <h3>Training</h3>
 					<div class="line"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
                 </div>
@@ -142,108 +142,42 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-title text-center">
-						<h2>Our Business</h2>
-						<p>Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada Pellentesque <br>ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+						<h2>Our task to conduct Training/Study Tour Program</h2>
+						
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-sm-6">
 					<div class="about-text">
-						<p>Grids is a responsive Multipurpose Template. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
-
 						<ul class="withArrow">
-							<li><span class="fa fa-angle-right"></span> Lorem ipsum dolor sit amet</li>
-							<li><span class="fa fa-angle-right"></span> consectetur adipiscing elit</li>
-							<li><span class="fa fa-angle-right"></span> Curabitur aliquet quam id dui</li>
-							<li><span class="fa fa-angle-right"></span> Donec sollicitudin molestie malesuada.</li>
+							<li><span class="fa fa-angle-right"></span> Obtain from the Clients</li>
+							<li><span class="fa fa-angle-right"></span>STHRD first task to prepare Training/Study Tour Plan and budget and approved it from authority</li>
+							<li><span class="fa fa-angle-right"></span> Identify and select training modalities to conduct training/study visit programs</li>
+							<li><span class="fa fa-angle-right"></span>Prepare detailed program antennary as per client instruction and desire</li>
+							<li><span class="fa fa-angle-right"></span>Assist to arrange travel visa</li>
+							<li><span class="fa fa-angle-right"></span>Arrange air-tickets and confirm flights, departure and arrival</li>
+							<li><span class="fa fa-angle-right"></span>With the communication of Client provide DSA (per diem) and allowances for out-of-pocket expenses to the participants at standard rates, not below the government rate, before departure from the country</li>
+							<li><span class="fa fa-angle-right"></span>Conduct pre-departure briefings through electronic media</li>
 						</ul>
-						<a href="#" class="btn btn-primary waves-effect waves-dark">Learn More</a>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
-					<div class="about-image">
-						<img src="<?php echo base_url(); ?>assets/img/about.jpg" alt="About Images">
+				<div class="about-text">
+						<ul class="withArrow">
+							<li><span class="fa fa-angle-right"></span>Organize suitable accommodation</li>
+							<li><span class="fa fa-angle-right"></span>Provide airport reception and transfer; Provide full time land surface transport including weekends</li>
+							<li><span class="fa fa-angle-right"></span>Offer a full time guide / welfare person during the entire period of stay in Singapore</li>
+							<li><span class="fa fa-angle-right"></span>Arrange to visit places of educational and cultural interest</li>
+							<li><span class="fa fa-angle-right"></span>Arrange working lunch during tour programs</li>
+							<li><span class="fa fa-angle-right"></span>Monitor the study tour and follow-up progress of assignment and attend to matters</li>
+							<li><span class="fa fa-angle-right"></span>Provide a descriptive training completion report</li>
+							<li><span class="fa fa-angle-right"></span>Submit payment statements</li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>	  
-	
- 
-	<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-3">
-				<div class="widget">
-					<h5 class="widgetheading">Our Contact</h5>
-					<address>
-					<strong>Bootstrap company Inc</strong><br>
-					JC Main Road, Near Silnile tower<br>
-					 Pin-21542 NewYork US.</address>
-					<p>
-						<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
-						<i class="icon-envelope-alt"></i> email@domainname.com
-					</p>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="widget">
-					<h5 class="widgetheading">Quick Links</h5>
-					<ul class="link-list">
-						<li><a class="waves-effect waves-dark" href="#">Latest Events</a></li>
-						<li><a class="waves-effect waves-dark" href="#">Terms and conditions</a></li>
-						<li><a class="waves-effect waves-dark" href="#">Privacy policy</a></li>
-						<li><a class="waves-effect waves-dark" href="#">Career</a></li>
-						<li><a class="waves-effect waves-dark" href="#">Contact us</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="widget">
-					<h5 class="widgetheading">Latest posts</h5>
-					<ul class="link-list">
-						<li><a class="waves-effect waves-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a class="waves-effect waves-dark" href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a class="waves-effect waves-dark" href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="widget">
-					<h5 class="widgetheading">Recent News</h5>
-					<ul class="link-list">
-						<li><a class="waves-effect waves-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a class="waves-effect waves-dark" href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a class="waves-effect waves-dark" href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="copyright">
-						<p>
-							<span>&copy; Bootstrap Template 2017 All right reserved. Template By </span><a href="https://webthemez.com/responsive-website/" target="_blank">WebThemez</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<ul class="social-network">
-						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	</footer>
-</div>
-<a href="#" class="scrollup waves-effect waves-dark"><i class="fa fa-angle-up active"></i></a>
+
 <?php include('partials/foot.php'); ?>

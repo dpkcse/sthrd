@@ -1,3 +1,33 @@
+	
+ 
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-sm-12">
+            <div class="col-lg-6">
+					<div class="copyright">
+                    <strong>Singapore Training & HR Development Pte. Limited</strong><br/>
+					JC Main Road, Near Silnile tower,Pin-21542 NewYork US.
+					
+					<p>
+						<i class="icon-phone"></i> (123) 456-789 - 1255-12584
+						<i class="icon-envelope-alt"></i> email@domainname.com
+					</p>
+						
+					</div>
+				</div>
+				<div class="col-lg-6">
+                    <p class="footCopy">
+					    <span>&copy; Singapore Training & HR Development Pte. Limited. Developed By </span><a href="#" target="_blank">SYSFINITY</a>
+					</p>
+				</div>  
+			</div>
+		</div>
+	</div>
+	
+	</footer>
+</div>
+<a href="#" class="scrollup waves-effect waves-dark"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
