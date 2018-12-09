@@ -1695,7 +1695,21 @@ article img.pull-right, article .align-right{
 	ul.related-folio li{
 		width:156px;
 		margin:0 20px 0 0;
-	}	
+	}
+	
+	.navbar-brand{
+		    margin-top: 0px !important;
+	}
+
+	.navbar-brand img{
+		width: 95% !important;
+	}
+
+	.topbar .col-sm-3{
+		display: none !important;
+	}
+
+
 }
 
 @media (max-width: 767px) {
@@ -1834,6 +1848,18 @@ padding-top: 3px;
 		margin-bottom:20px;
   }
 
+  .navbar-brand{
+		    margin-top: 0px !important;
+	}
+
+	.navbar-brand img{
+		width: 95% !important;
+	}
+
+	.topbar .col-sm-3{
+		display: none !important;
+	}
+
 }
 
 @media (max-width: 480px) {
@@ -1863,8 +1889,34 @@ padding-top: 3px;
 		font-size:14px;
 	}
 
+	.navbar-brand{
+		    margin-top: 0px !important;
+	}
+
+	.navbar-brand img{
+		width: 95% !important;
+	}
+
+	.topbar .col-sm-3{
+		display: none !important;
+	}
+
 
 }
+
+
+.navbar-brand{
+		margin-top: 18px;
+}
+
+.navbar-brand img{
+	width: 100%;
+}
+
+.topbar .col-sm-3{
+	display: block;
+}
+
 .tab-section .col{
 	
 }
