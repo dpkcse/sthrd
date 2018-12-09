@@ -8,7 +8,7 @@
             <ul class="slides">
               <li>
                 <img src="<?php echo base_url(); ?>assets/img/slides/1.jpg" alt="" />
-                <div class="flex-caption">
+                <div class="flex-caption" style="text-align: right !important;">
                     <h3>Business  Intellect</h3> 
 					<p>We create best opportunities</p> 
 				</div>
@@ -31,7 +31,7 @@
         </div>
 	<!-- end slider --> 
 	</section>  
-	 	<section id="content"> 
+	 	<section id="content" style="padding: 0px !important;"> 
 			
 	<div class="container">
 	
@@ -39,7 +39,10 @@
 		<section class="services">
 	    	<div class="row">
 			<div class="col-md-12">
-				<div class="aligncenter"><h2 class="aligncenter">Singapore Training & HR Development Pte. Limited</h2>Singapore Training & HR Development (STHRD) is a human resource development and capacity building organization that provides multi-sectorial training in Singapore for foreign clients, STHRD organizes ex periential exchange visits and study tours in Singapore for foreign trainees.<br/> Singapore Training & HR Development (STHRD) organizes the training program in a professional manner.</div>
+				<div class="aligncenter"><h2 class="aligncenter">Singapore Training & HR Development Pte. Limited</h2>Singapore 038988, Singapore<br/> <p>
+						<i class="icon-info-blocks material-icons" style="font-size: 14px;">call</i> (123) 456-789 - 1255-12584
+						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@sthrd.com</a>
+					</p></a></div>
 				<br/>
 				<div class="aligncenter">
 					<a href="<?php echo base_url(); ?>index.php/Who"" class="btn btn-primary waves-effect waves-dark">WHO WE ARE</a>

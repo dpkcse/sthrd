@@ -6,14 +6,15 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<h2 class="pageTitle">Our Vision</h2>
+				<ul class="breadcrumbCus">
+					<li><a href="<?php echo base_url(); ?>index.php/Home"><i class="icon-info-blocks material-icons">account_balance</i> Home</a></li>
+					<li>Vision</li>
+				</ul>
 			</div>
 		</div>
 	</div>
 	</section>
-	<ul class="breadcrumbCus">
-		<li><a href="<?php echo base_url(); ?>index.php/Home"><i class="icon-info-blocks material-icons">account_balance</i> Home</a></li>
-		<li>Vision</li>
-	</ul>
+	
 	<section id="content">
 		<section class="section-padding">
 			<div class="container">
