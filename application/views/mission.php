@@ -10,6 +10,10 @@
 		</div>
 	</div>
 	</section>
+	<ul class="breadcrumbCus">
+		<li><a href="<?php echo base_url(); ?>index.php/Home"><i class="icon-info-blocks material-icons">account_balance</i> Home</a></li>
+		<li>Mission</li>
+	</ul>
 	<section id="content">
 		<section class="section-padding">
 			<div class="container">

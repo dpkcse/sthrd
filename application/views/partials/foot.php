@@ -7,11 +7,11 @@
             <div class="col-lg-6">
 					<div class="copyright">
                     <strong>Singapore Training & HR Development Pte. Limited</strong><br/>
-					JC Main Road, Near Silnile tower,Pin-21542 NewYork US.
+					Singapore 038988, Singapore
 					
 					<p>
-						<i class="icon-phone"></i> (123) 456-789 - 1255-12584
-						<i class="icon-envelope-alt"></i> email@domainname.com
+						<i class="icon-info-blocks material-icons" style="font-size: 14px;">call</i> (123) 456-789 - 1255-12584
+						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@sthrd.com</a>
 					</p>
 						
 					</div>

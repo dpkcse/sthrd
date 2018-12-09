@@ -328,7 +328,7 @@ header ul.nav li {
 }
 
 header ul.nav li a {
-	font-size: 13px;
+	font-size: 11px;
 	border:none;
 	font-weight: 600;
 	text-transform:uppercase;
@@ -1645,14 +1645,16 @@ article img.pull-right, article .align-right{
 .margintop40{
 	margin-top:40px;
 }
+
 .flex-control-paging li a {
-  width: 18px;
-  height: 8px;
-  border-radius: 0;
-  background: #ffffff;
-  text-indent: 50px;
-  overflow: hidden;
+	width: 18px;
+	height: 18px;
+	background: #ffffff;
+	text-indent: 50px;
+	overflow: hidden;
+	border-radius: 50%;
 }
+
 .btn:hover, .btn:focus {
   color: #FFF;
   text-decoration: none;
@@ -1904,7 +1906,41 @@ span.color {
 	margin-left: -36px;
 } */
 
+
 .footCopy{
 	margin: 33px 0 10px;
     font-size: 11px;
+}
+ul.breadcrumbCus {
+    
+    padding: 6px 16px;
+    list-style: none;
+    position: absolute;
+	font-size: 8px;
+	z-index: 1000;
+
+}
+
+ul.breadcrumbCus li {
+    display: inline;
+    font-size: 14px;
+}
+
+ul.breadcrumbCus li+li:before {
+    padding: 3px;
+    color: black;
+    content: "\003e";
+    line-height: 3px;
+}
+ul.breadcrumbCus li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ul.breadcrumbCus li a i{
+    font-size: 14px;
+}
+ul.breadcrumbCus li a:hover {
+    color: #01447e;
+    text-decoration: underline;
 }

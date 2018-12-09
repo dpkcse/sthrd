@@ -32,7 +32,9 @@
 	<!-- end slider --> 
 	</section>  
 	 	<section id="content"> 
+			
 	<div class="container">
+	
 	
 		<section class="services">
 	    	<div class="row">
