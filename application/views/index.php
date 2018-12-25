@@ -51,30 +51,30 @@
 		</div>
 
 	 <div class="row">
-            <div class="col-sm-4 info-blocks">  
+            <!-- <div class="col-sm-4 info-blocks">  
                 <div class="info-blocks-in">
 				<i class="icon-info-blocks material-icons">perm_identity</i>
                     <h3>Consulting</h3>
 					<div class="line"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
                 </div>
-            </div>
-            <div class="col-sm-4 info-blocks"> 
+            </div> -->
+            <div class="col-sm-12 info-blocks"> 
                 <div class="info-blocks-in">
 				 <i class="icon-info-blocks material-icons">card_travel</i>
                     <h3>Training</h3>
 					<div class="line"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <p>STHRD works in association with reputed Training Agencies, Institutes and Universities, Education Institutions in Singapore to ensure the finest quality and result oriented capacity building programs. STHRD provides ‘one-stop solution’ for all relevant logistical facilities and services pertaining to implementation of the program</p>
                 </div>
             </div>
-            <div class="col-sm-4 info-blocks">
+            <!-- <div class="col-sm-4 info-blocks">
                 <div class="info-blocks-in">
                 <i class="icon-info-blocks material-icons">important_devices</i>
                     <h3>Development</h3>
 					<div class="line"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
                 </div>
-            </div>
+            </div> -->
         </div> 
 		</section>
 	</div>

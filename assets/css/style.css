@@ -119,6 +119,9 @@ img.img-polaroid {
 	background-color: #1e1e1e;
 	padding: 0;
 	/* color:#fff; */
+	background: #333333;
+    background: -webkit-linear-gradient(to top, #b01513, #ef0000);
+    background: linear-gradient(to top, #b01513, #ef0000);
 }
 .topbar .container .row {
     margin: 0;
@@ -929,7 +932,10 @@ form#commentform textarea {
 section.section-padding.gray-bg {
     background: #ffffff;
     padding: 60px;
-    color: #484848;
+	color: #484848;
+	background: #005AA7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
  
   #accordion-alt3 .panel-heading h4 {
@@ -1451,6 +1457,8 @@ footer .widget .flickr_badge img {
 footer{
 	padding:50px 0 0 0;
 	color:#f8f8f8;
+	background: -webkit-linear-gradient(to bottom, #b01513, #ef0000);
+    background: linear-gradient(to bottom, #b01513, #ef0000);
 }
 
 footer a {
@@ -1906,7 +1914,7 @@ padding-top: 3px;
 
 
 .navbar-brand{
-		margin-top: 18px;
+		margin-top: 0px;
 }
 
 .navbar-brand img{
