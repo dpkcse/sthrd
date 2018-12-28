@@ -15,7 +15,7 @@
 	</div>
 	</section>
 	
-	<section id="content">
+	<section id="content" class="contentTest">
 	<section class="section-padding">
 		<div class="container">
 			<div class="row showcase-section">

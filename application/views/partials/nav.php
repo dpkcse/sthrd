@@ -1,4 +1,4 @@
-<header class="topbar">
+<header class="topbar cus1">
 		<div class="container">
 			<div class="row">
 				<!-- social icon-->
@@ -27,7 +27,7 @@
 	</header>
 		
 	<!-- start header -->
-	<header>
+	<header class="cus2">
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
