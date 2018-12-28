@@ -21,9 +21,9 @@
 				<div class="row showcase-section">
 				<div class="col-md-6 col-sm-6">
 						<div class="about-text">
-							<p>The center services are available for individuals and also groups for training programs, conference, seminars and courses. It has the support of an organized office that includes</p>
+							<p>CBSC services are available for individuals and also groups for training programs, conference, seminars and courses. It has the support of an organized office that includes: efficient support staff, adequate and neat office accommodation, requisite office equipment and aids,  organized and communication system, logistic and utilities, supply of quality food. </p>
 
-							<ul class="withArrow">
+							<!-- <ul class="withArrow">
 								<li><span class="fa fa-angle-right"></span> Efficient support staff</li>
 								<li><span class="fa fa-angle-right"></span> Adequate and neat office accommodation</li>
 								<li><span class="fa fa-angle-right"></span> Requisite office equipment and aids</li>
@@ -34,12 +34,12 @@
 								<li><span class="fa fa-angle-right"></span> Supply of quality training materials</li>
 								<li><span class="fa fa-angle-right"></span>Training aids like multi media projector, computer etc</li>
 								
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<div class="about-image">
-							<img src="<?php echo base_url(); ?>assets/img/Facilities.png" alt="About Images">
+						<div class="about-image" style="text-align:center;">
+							<img src="<?php echo base_url(); ?>assets/img/Facilities.png" alt="About Images" style="width: 31%;">
 						</div>
 					</div>
 				</div>

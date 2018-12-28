@@ -21,9 +21,8 @@
 				<div class="row showcase-section">
 				<div class="col-md-6 col-sm-6">
 						<div class="about-text">
-							<p>All our programs are tailored as per the specific needs of the client organizations. Following a complete risk-free framework, we ensure flawless and successful implementation of the capacity development programs.</p>
-							<p>We provide a one-stop solution for all required services and logistics support. Through widespread linkage with our local associates, we are capable of organizing training, study tour, exposure visit, workshop and seminar in different fields. </p>
-							<p>We have a pool of subject matter specialists, resource persons, consultants & facilitators of international standard.</p>
+							<p>We provide support to organize all of our programs are tailored as per the specific needs of the client organizations with the cooperation of respective training institute. Following a complete risk-free framework, we ensure flawless and successful implementation of the capacity development programs.</p>
+							<p> We provide a one-stop solution for all required services and logistics support. Through widespread linkage with our local associates, we are capable of organizing training, study tour, exposure visit, workshop and seminar in different fields. We have a pool of consultants & facilitators of international standard.</p>
 
 						</div>
 					</div>

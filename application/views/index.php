@@ -39,9 +39,9 @@
 		<section class="services">
 	    	<div class="row">
 			<div class="col-md-12">
-				<div class="aligncenter"><h2 class="aligncenter">Singapore Training & HR Development Pte. Limited</h2>Singapore 038988, Singapore<br/> <p>
-						<i class="icon-info-blocks material-icons" style="font-size: 14px;">call</i> (123) 456-789 - 1255-12584
-						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@sthrd.com</a>
+				<div class="aligncenter"><h2 class="aligncenter">Capacity Building Consistency Services Pte. Ltd. (CBSC)</h2>Company UEN: 201841874K, 30 Robarts Lane # 02-01, Singapore 218309<br/> <p>
+						<i class="icon-info-blocks material-icons" style="font-size: 14px;">call</i> (+65)  6396 6293/6341
+						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@cbsc.com</a>
 					</p></a></div>
 				<br/>
 				<div class="aligncenter">
@@ -64,7 +64,7 @@
 				 <i class="icon-info-blocks material-icons">card_travel</i>
                     <h3>Training</h3>
 					<div class="line"></div>
-                    <p>STHRD works in association with reputed Training Agencies, Institutes and Universities, Education Institutions in Singapore to ensure the finest quality and result oriented capacity building programs. STHRD provides ‘one-stop solution’ for all relevant logistical facilities and services pertaining to implementation of the program</p>
+                    <p>CBSC works in association with reputed Training Agencies, Institutes and Universities, Education Institutions in Singapore to ensure the finest quality and result oriented capacity building programs. CBSC provides ‘one-stop solution’ for all relevant logistical facilities and services pertaining to implementation of the program</p>
                 </div>
             </div>
             <!-- <div class="col-sm-4 info-blocks">
@@ -153,9 +153,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 col-sm-6">
+				<div class="col-md-12 col-sm-12">
 					<div class="about-text">
-						<ul class="withArrow">
+						<p>Obtain from the Clients, CBSC first task to prepare Training/Study Tour Plan and budget and approved it from authority; Identify and select respective training institute to conduct training/study visit programs; Support to the training institute to prepare detailed program antennary as per client instruction and desire; Assist to arrange travel visa; Arrange air-tickets and confirm flights, departure and arrival; With the communication of Client provide DSA (per diem) and allowances for out-of-pocket expenses to the participants at standard rates, not below the government rate, before departure from the country; Conduct pre-departure briefings through electronic media; Organize suitable accommodation; Provide airport reception and transfer; Provide full time land surface transport including weekends; Offer a full time welfare person during the entire period of stay in Singapore; Through respective organization arrange to visit places of educational and cultural interest; Arrange working lunch during tour programs; Monitor the study tour and follow-up progress of assignment and attend to matters; With the cooperation of training providers prepare a descriptive training completion report; </p>
+						<!-- <ul class="withArrow">
 							<li><span class="fa fa-angle-right"></span> Obtain from the Clients</li>
 							<li><span class="fa fa-angle-right"></span>STHRD first task to prepare Training/Study Tour Plan and budget and approved it from authority</li>
 							<li><span class="fa fa-angle-right"></span> Identify and select training modalities to conduct training/study visit programs</li>
@@ -164,10 +165,10 @@
 							<li><span class="fa fa-angle-right"></span>Arrange air-tickets and confirm flights, departure and arrival</li>
 							<li><span class="fa fa-angle-right"></span>With the communication of Client provide DSA (per diem) and allowances for out-of-pocket expenses to the participants at standard rates, not below the government rate, before departure from the country</li>
 							<li><span class="fa fa-angle-right"></span>Conduct pre-departure briefings through electronic media</li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-6">
+				<!-- <div class="col-md-6 col-sm-6">
 				<div class="about-text">
 						<ul class="withArrow">
 							<li><span class="fa fa-angle-right"></span>Organize suitable accommodation</li>
@@ -180,7 +181,7 @@
 							<li><span class="fa fa-angle-right"></span>Submit payment statements</li>
 						</ul>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>	  

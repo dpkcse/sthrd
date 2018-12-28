@@ -25,7 +25,7 @@
 					<div class="col-md-6">
 						<div class="about-text">
 							<h3><span class="color">Mision</span></h3>
-							<p>Ensure organizational effectiveness and global development by organizing and implementing high-quality training, study tour, skill enhancement and capacity building programs in Singapore for foreign clients and local communities. </p>
+							<p>Ensure organizational effectiveness and global development by provide consultancy support to organizing and implementing high-quality training, study tour, skill enhancement and capacity building programs in Singapore for foreign clients through reputed training institute and Universities.</p>
 						</div>
 					</div>
 				</div>

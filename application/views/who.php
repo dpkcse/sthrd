@@ -26,8 +26,8 @@
 					<div class="col-md-6">
 						<div class="about-text">
 							<h3><span class="color">Who we are</span> </h3>
-							<p>Singapore Training & HR Development (STHRD) is a human resource development and capacity building organization that provides multi-sectorial training in Singapore for foreign clients, STHRD organizes ex periential exchange visits and study tours in Singapore for foreign trainees. Singapore Training & HR Development (STHRD) organizes the training program in a professional manner. </p>
-							<p>Our professionals are able to develop the course curriculum, preparation of training plan, training budget and completion report. It creates as a service organization in the firm sense of the term and earnestly secures the interest of the clients. STHRD offers the scope to organize well planned training programs by its practiced and proven method of learning based on intensive and hands-on training with constant and active guidance of qualified, experienced and competent faculty. STHRD is committed to derive the real benefit of training in its field of specialization.</p>
+							<p>Capacity Building Consultancy Services (CBSC), Singapore is a human resource development and capacity building consultancy services that provide support to organize multi-sectorial training in Singapore for foreign clients, CBSC provide assistance to organize experiential exchange visits and study tours in Singapore for foreign trainees. Capacity Building Consultancy Services (CBSC), organize the training program with the collaboration of respective professional training institute.</p>
+							<p>Our professionals are able to preparation of training plan, training budget and completion report. It creates as a service organization in the firm sense of the term and earnestly secures the interest of the client.</p>
 						</div>
 					</div>
 				</div>

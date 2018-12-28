@@ -6,19 +6,20 @@
 			<div class="col-lg-12 col-sm-12">
             <div class="col-lg-6">
 					<div class="copyright">
-                    <strong>Singapore Training & HR Development Pte. Limited</strong><br/>
-					Singapore 038988, Singapore
+                    <strong>Capacity Building Consistency Services Pte. Ltd. (CBSC)</strong><br/>
+					30 Robarts Lane # 02-01, Singapore 218309
 					
 					<p>
-						<i class="icon-info-blocks material-icons" style="font-size: 14px;">call</i> (123) 456-789 - 1255-12584
-						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@sthrd.com</a>
+						<i class="icon-info-blocks material-icons" style="font-size: 14px;">call</i> (+65) 6396 6293/6341
+						<i class="icon-info-blocks material-icons" style="font-size: 14px;">print</i> (+65) 6291 7550
+						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@cbsc.com</a>
 					</p>
 						
 					</div>
 				</div>
 				<div class="col-lg-6">
                     <p class="footCopy">
-					    <span>&copy; Singapore Training & HR Development Pte. Limited. Developed By </span><a href="#" target="_blank">SYSFINITY</a>
+					    <span>&copy; Capacity Building Consistency Services Pte. Ltd. (CBSC). Developed By </span><a href="#" target="_blank">SYSFINITY</a>
 					</p>
 				</div>  
 			</div>
