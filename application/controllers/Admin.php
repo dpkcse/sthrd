@@ -51,8 +51,7 @@ class Admin extends CI_Controller {
         $email = $this->input->post('email', true);
         $password = $this->input->post('password', true);
 
-        $this->load->model('admin_model');
-        $result = $this->admin_model->check_admin_info($email, $password);
+        $result = $this->Crud_model->check_admin_info($email, $password);
 
         $sdata = array();
         if ($result) {
