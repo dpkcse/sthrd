@@ -25,7 +25,11 @@
 					<div class="col-md-6">
 						<div class="about-text">
 							<h3><span class="color">Vision</span></h3>
-							<p>To emerge as a potential, dynamic and value based training consultancy services with responsible, outstanding, committed and skilled professionals who facilitate seamless transformation of the beneficiary-participants to excellent performers in their respective sectors of work.</p>
+							<?php if(COUNT($program) > 0){ ?>
+								<!-- <p> </p> -->
+								<p><?php echo $program[0]->mnv_vision; ?></p>
+							<?php } ?>
+							<!-- <p>To emerge as a potential, dynamic and value based training consultancy services with responsible, outstanding, committed and skilled professionals who facilitate seamless transformation of the beneficiary-participants to excellent performers in their respective sectors of work.</p> -->
 						</div>
 					</div>
 				</div>

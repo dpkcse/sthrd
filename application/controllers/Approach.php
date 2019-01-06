@@ -20,10 +20,18 @@ class Approach extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	public function __construct()
+    {
+        parent::__construct();
+		$this->load->helper(array('form', 'url', 'text'));
+		$this->load->model("Crud_model");
+	}
+	
 	public function index()
 	{
 		$data = array();
 		$data['title'] = "Approach";
+		$data['program'] = $this->Crud_model->getAll_limit('cbsc_approch','1');
 		$this->load->view('approach',$data);
 	}
 }

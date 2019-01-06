@@ -1,38 +1,84 @@
+
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Augment an Admin Panel Category Flat Bootstrap Responsive Web Template | Home :: w3layouts</title>
+<title>CBSC .:||:. ADMIN PANEL</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Augment Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<meta name="keywords" content="CAPACITY BUILDING CONSISTENCY SERVICES PTE. LTD. (CBSC)" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
- <!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
-<!-- Custom CSS -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<!-- Graph CSS -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- jQuery -->
-<link href='//fonts.googleapis.com/css?family=Roboto:700,500,300,100italic,100,400' rel='stylesheet' type='text/css'>
-<!-- lined-icons -->
-<link rel="stylesheet" href="css/icon-font.min.css" type='text/css' />
-<!-- //lined-icons -->
-<script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/amcharts.js"></script>	
-<script src="js/serial.js"></script>	
-<script src="js/light.js"></script>	
-<script src="js/radar.js"></script>	
-<link href="css/barChart.css" rel='stylesheet' type='text/css' />
-<link href="css/fabochart.css" rel='stylesheet' type='text/css' />
-<!--clock init-->
-<script src="js/css3clock.js"></script>
-<!--Easy Pie Chart-->
+<link href="<?php echo base_url(); ?>admin_web/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="<?php echo base_url(); ?>admin_web/css/style.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo base_url(); ?>admin_web/css/font-awesome.css" rel="stylesheet"> 
+<script src="<?php echo base_url(); ?>admin_web/js/jquery.min.js"> </script>
+<!-- Mainly scripts -->
+<script src="<?php echo base_url(); ?>admin_web/js/jquery.metisMenu.js"></script>
+<script src="<?php echo base_url(); ?>admin_web/js/jquery.slimscroll.min.js"></script>
+<!-- Custom and plugin javascript -->
+<link href="<?php echo base_url(); ?>admin_web/css/custom.css" rel="stylesheet">
+<script src="<?php echo base_url(); ?>admin_web/js/custom.js"></script>
+<script src="<?php echo base_url(); ?>admin_web/js/screenfull.js"></script>
+<script>
+    $(function () {
+        $('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
+
+        if (!screenfull.enabled) {
+            return false;
+        }
+
+        
+
+        $('#toggle').click(function () {
+            screenfull.toggle($('#container')[0]);
+        });
+        
+
+        
+    });
+</script>
+
+<!----->
+
+<!--pie-chart--->
+<script src="<?php echo base_url(); ?>admin_web/js/pie-chart.js" type="text/javascript"></script>
+ <script type="text/javascript">
+    $(document).ready(function () {
+        $('#demo-pie-1').pieChart({
+            barColor: '#3bb2d0',
+            trackColor: '#eee',
+            lineCap: 'round',
+            lineWidth: 8,
+            onStep: function (from, to, percent) {
+                $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+            }
+        });
+
+        $('#demo-pie-2').pieChart({
+            barColor: '#fbb03b',
+            trackColor: '#eee',
+            lineCap: 'butt',
+            lineWidth: 8,
+            onStep: function (from, to, percent) {
+                $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+            }
+        });
+
+        $('#demo-pie-3').pieChart({
+            barColor: '#ed6498',
+            trackColor: '#eee',
+            lineCap: 'square',
+            lineWidth: 8,
+            onStep: function (from, to, percent) {
+                $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+            }
+        });
+
+        
+    });
+</script>
 <!--skycons-icons-->
-<script src="js/skycons.js"></script>
-
-<script src="js/jquery.easydropdown.js"></script>
-
+<script src="<?php echo base_url(); ?>admin_web/js/skycons.js"></script>
 <!--//skycons-icons-->
-</head> 
+</head>
 <body>

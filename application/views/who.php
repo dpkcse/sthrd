@@ -26,8 +26,12 @@
 					<div class="col-md-6">
 						<div class="about-text">
 							<h3><span class="color">Who we are</span> </h3>
-							<p>Capacity Building Consultancy Services (CBSC), Singapore is a human resource development and capacity building consultancy services that provide support to organize multi-sectorial training in Singapore for foreign clients, CBSC provide assistance to organize experiential exchange visits and study tours in Singapore for foreign trainees. Capacity Building Consultancy Services (CBSC), organize the training program with the collaboration of respective professional training institute.</p>
-							<p>Our professionals are able to preparation of training plan, training budget and completion report. It creates as a service organization in the firm sense of the term and earnestly secures the interest of the client.</p>
+							<?php if(COUNT($program) > 0){ ?>
+								<!-- <p> </p> -->
+								<p><?php echo $program[0]->wwa_desc; ?></p>
+							<?php } ?>
+							<!-- <p>Capacity Building Consultancy Services (CBSC), Singapore is a human resource development and capacity building consultancy services that provide support to organize multi-sectorial training in Singapore for foreign clients, CBSC provide assistance to organize experiential exchange visits and study tours in Singapore for foreign trainees. Capacity Building Consultancy Services (CBSC), organize the training program with the collaboration of respective professional training institute.</p> -->
+							<!-- <p>Our professionals are able to preparation of training plan, training budget and completion report. It creates as a service organization in the firm sense of the term and earnestly secures the interest of the client.</p> -->
 						</div>
 					</div>
 				</div>

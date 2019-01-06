@@ -6,14 +6,27 @@
 	<!-- Slider -->
         <div id="main-slider" class="flexslider">
             <ul class="slides">
+			<?php if(COUNT($allImg) > 0){
+				foreach($allImg as $item) {
+			?>
               <li>
+                <img src="<?php echo base_url(); ?>upload/<?php echo $item->image; ?>" alt="" />
+                <div class="flex-caption" style="text-align: right !important;">
+                    <h3><?php echo $item->head_one; ?></h3> 
+					<p><?php echo $item->head_two; ?></p> 
+				</div>
+			  </li>
+			<?php
+				}
+			} ?>
+			<!-- <li>
                 <img src="<?php echo base_url(); ?>assets/img/slides/1.jpg" alt="" />
                 <div class="flex-caption" style="text-align: right !important;">
                     <h3>Business  Intellect</h3> 
 					<p>We create best opportunities</p> 
 				</div>
-              </li>
-              <li>
+              </li> -->
+              <!-- <li>
                 <img src="<?php echo base_url(); ?>assets/img/slides/2.jpg" alt="" />
                 <div class="flex-caption">
                     <h3>Innovative Minds</h3> 
@@ -26,7 +39,7 @@
                     <h3>Exploring Knowledge</h3> 
 					<p>Peer to peer knowledge sharing</p> 
 				</div>
-              </li>
+              </li> -->
             </ul>
         </div>
 	<!-- end slider --> 
@@ -155,7 +168,12 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
 					<div class="about-text">
-						<p>Obtain from the Clients, CBSC first task to prepare Training/Study Tour Plan and budget and approved it from authority; Identify and select respective training institute to conduct training/study visit programs; Support to the training institute to prepare detailed program antennary as per client instruction and desire; Assist to arrange travel visa; Arrange air-tickets and confirm flights, departure and arrival; With the communication of Client provide DSA (per diem) and allowances for out-of-pocket expenses to the participants at standard rates, not below the government rate, before departure from the country; Conduct pre-departure briefings through electronic media; Organize suitable accommodation; Provide airport reception and transfer; Provide full time land surface transport including weekends; Offer a full time welfare person during the entire period of stay in Singapore; Through respective organization arrange to visit places of educational and cultural interest; Arrange working lunch during tour programs; Monitor the study tour and follow-up progress of assignment and attend to matters; With the cooperation of training providers prepare a descriptive training completion report; </p>
+					<?php if(COUNT($program) > 0){ ?>
+						<!-- <p> </p> -->
+                        <p><?php echo $program[0]->program_desc; ?></p>
+					<?php } ?>
+					
+						
 						<!-- <ul class="withArrow">
 							<li><span class="fa fa-angle-right"></span> Obtain from the Clients</li>
 							<li><span class="fa fa-angle-right"></span>STHRD first task to prepare Training/Study Tour Plan and budget and approved it from authority</li>

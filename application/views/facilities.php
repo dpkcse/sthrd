@@ -21,8 +21,11 @@
 				<div class="row showcase-section">
 				<div class="col-md-6 col-sm-6">
 						<div class="about-text">
-							<p>CBSC services are available for individuals and also groups for training programs, conference, seminars and courses. It has the support of an organized office that includes: efficient support staff, adequate and neat office accommodation, requisite office equipment and aids,  organized and communication system, logistic and utilities, supply of quality food. </p>
-
+							<!-- <p>CBSC services are available for individuals and also groups for training programs, conference, seminars and courses. It has the support of an organized office that includes: efficient support staff, adequate and neat office accommodation, requisite office equipment and aids,  organized and communication system, logistic and utilities, supply of quality food. </p> -->
+							<?php if(COUNT($program) > 0){ ?>
+								<!-- <p> </p> -->
+								<p><?php echo $program[0]->facilities_desc; ?></p>
+							<?php } ?>
 							<!-- <ul class="withArrow">
 								<li><span class="fa fa-angle-right"></span> Efficient support staff</li>
 								<li><span class="fa fa-angle-right"></span> Adequate and neat office accommodation</li>

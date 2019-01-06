@@ -18,6 +18,14 @@ class Specialty extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	public function __construct()
+    {
+        parent::__construct();
+		$this->load->helper(array('form', 'url', 'text'));
+		$this->load->model("Crud_model");
+	}
+	
 	public function index()
 	{
 		$data = array();

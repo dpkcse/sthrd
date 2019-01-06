@@ -41,7 +41,11 @@
 								<li><span class="fa fa-angle-right"></span> Women entrepreneurship and empowerment</li>
 								<li><span class="fa fa-angle-right"></span> Guidance and counseling</li>
 							</ul> -->
-							<p>CBSC provide consultancy services in capacity development training program in the field of primary education, secondary education, TVET, health, agriculture, finance, human resources, monitoring & evaluation, public and local governance skills, organizational management skills, entrepreneurship, disaster management, finance and income generations, women entrepreneurship and empowerment, guidance and counseling etc. with the collaboration of respective training institutes. CBSC works in association with reputed Training Agencies, Institutes and Universities, Education Institutions in Singapore to ensure the finest quality and result oriented capacity building programs. CBSC provides ‘one-stop solution’ for all relevant logistical facilities and services pertaining to implementation of the program.</p>
+							<?php if(COUNT($program) > 0){ ?>
+								<!-- <p> </p> -->
+								<p><?php echo $program[0]->expertise_desc; ?></p>
+							<?php } ?>
+							<!-- <p>CBSC provide consultancy services in capacity development training program in the field of primary education, secondary education, TVET, health, agriculture, finance, human resources, monitoring & evaluation, public and local governance skills, organizational management skills, entrepreneurship, disaster management, finance and income generations, women entrepreneurship and empowerment, guidance and counseling etc. with the collaboration of respective training institutes. CBSC works in association with reputed Training Agencies, Institutes and Universities, Education Institutions in Singapore to ensure the finest quality and result oriented capacity building programs. CBSC provides ‘one-stop solution’ for all relevant logistical facilities and services pertaining to implementation of the program.</p> -->
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6">
