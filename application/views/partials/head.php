@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>CAPACITY BUILDING CONSISTENCY SERVICES PTE. LTD. (CBSC)</title>
+<title>CAPACITY BUILDING CONSISTENCY SERVICES PTE. LTD. (CBCS)</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="CAPACITY BUILDING CONSISTENCY SERVICES PTE. LTD. (CBSC) is a human resource development and capacity building organization that provides multi-sectorial training in Singapore for foreign clients, STHRD organizes ex periential exchange visits and study tours in Singapore for foreign trainees. Singapore Training & HR Development (STHRD) organizes the training program in a professional manner." />
-<meta name="author" content="CAPACITY BUILDING CONSISTENCY SERVICES PTE. LTD. (CBSC)" />
-<meta name="og:title" property="og:title" content="CAPACITY BUILDING CONSISTENCY SERVICES PTE. LTD. (CBSC) is a human resource development and capacity building organization that provides multi-sectorial training in Singapore for foreign clients, STHRD organizes ex periential exchange visits and study tours in Singapore for foreign trainees. Singapore Training & HR Development (STHRD) organizes the training program in a professional manner.">
+<meta name="description" content="CAPACITY BUILDING CONSISTENCY SERVICES PTE. LTD. (CBCS) is a human resource development and capacity building organization that provides multi-sectorial training in Singapore for foreign clients, STHRD organizes ex periential exchange visits and study tours in Singapore for foreign trainees. Singapore Training & HR Development (STHRD) organizes the training program in a professional manner." />
+<meta name="author" content="CAPACITY BUILDING CONSISTENCY SERVICES PTE. LTD. (CBCS)" />
+<meta name="og:title" property="og:title" content="CAPACITY BUILDING CONSISTENCY SERVICES PTE. LTD. (CBCS) is a human resource development and capacity building organization that provides multi-sectorial training in Singapore for foreign clients, STHRD organizes ex periential exchange visits and study tours in Singapore for foreign trainees. Singapore Training & HR Development (STHRD) organizes the training program in a professional manner.">
 <meta name="robots" content="index, follow">
 <link rel="apple-touch-icon" sizes="57x57" href="<?php echo base_url(); ?>assets/favico/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="<?php echo base_url(); ?>assets/favico/apple-icon-60x60.png">

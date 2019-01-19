@@ -6,20 +6,20 @@
 			<div class="col-lg-12 col-sm-12">
             <div class="col-lg-6">
 					<div class="copyright">
-                    <strong>Capacity Building Consistency Services Pte. Ltd. (CBSC)</strong><br/>
+                    <strong>Capacity Building Consistency Services Pte. Ltd. (CBCS)</strong><br/>
 					30 Robarts Lane # 02-01, Singapore 218309
 					
 					<p>
 						<i class="icon-info-blocks material-icons" style="font-size: 14px;">call</i> (+65) 6396 6293/6341
 						<i class="icon-info-blocks material-icons" style="font-size: 14px;">print</i> (+65) 6291 7550
-						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@cbsc.com</a>
+						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@CBCS.com</a>
 					</p>
 						
 					</div>
 				</div>
 				<div class="col-lg-6">
                     <p class="footCopy">
-					    <span>&copy; Capacity Building Consistency Services Pte. Ltd. (CBSC). Developed By </span><a href="#" target="_blank">SYSFINITY</a>
+					    <span>&copy; Capacity Building Consistency Services Pte. Ltd. (CBCS). Developed By </span><a href="#" target="_blank">SYSFINITY</a>
 					</p>
 				</div>  
 			</div>

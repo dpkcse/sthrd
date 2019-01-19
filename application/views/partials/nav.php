@@ -14,7 +14,7 @@
 				<div class="col-sm-9">
 					<div class="row">
 						<ul class="info"> 
-							<li><i class="icon-info-blocks material-icons">question_answer</i><span>info@cbsc.com</span></li>
+							<li><i class="icon-info-blocks material-icons">question_answer</i><span>info@CBCS.com</span></li>
 							<li><i class="icon-info-blocks material-icons">perm_phone_msg</i><span>(+65) 6396 6293/6341</span></li>
 						</ul>
 						<div class="clr"></div>
@@ -36,7 +36,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="./"><img src="<?php echo base_url(); ?>assets/img/logo.png"></a>
+                    <a class="navbar-brand" href="./"><img style="width: 14%;" src="<?php echo base_url(); ?>assets/img/logo.png"></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">

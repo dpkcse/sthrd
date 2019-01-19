@@ -11,7 +11,7 @@
 			?>
               <li>
                 <img src="<?php echo base_url(); ?>upload/<?php echo $item->image; ?>" alt="" />
-                <div class="flex-caption" style="text-align: right !important;">
+                <div class="flex-caption">
                     <h3><?php echo $item->head_one; ?></h3> 
 					<p><?php echo $item->head_two; ?></p> 
 				</div>
@@ -52,9 +52,9 @@
 		<section class="services">
 	    	<div class="row">
 			<div class="col-md-12">
-				<div class="aligncenter"><h2 class="aligncenter">Capacity Building Consistency Services Pte. Ltd. (CBSC)</h2>Company UEN: 201841874K, 30 Robarts Lane # 02-01, Singapore 218309<br/> <p>
+				<div class="aligncenter"><h2 class="aligncenter">Capacity Building Consistency Services Pte. Ltd. (CBCS)</h2>Company UEN: 201841874K, 30 Robarts Lane # 02-01, Singapore 218309<br/> <p>
 						<i class="icon-info-blocks material-icons" style="font-size: 14px;">call</i> (+65)  6396 6293/6341
-						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@cbsc.com</a>
+						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@CBCS.com</a>
 					</p></a></div>
 				<br/>
 				<div class="aligncenter">
@@ -73,12 +73,20 @@
                 </div>
             </div> -->
             <div class="col-sm-12 info-blocks"> 
-                <div class="info-blocks-in">
-				 <i class="icon-info-blocks material-icons">card_travel</i>
-                    <h3>Training</h3>
-					<div class="line"></div>
-                    <p>CBSC works in association with reputed Training Agencies, Institutes and Universities, Education Institutions in Singapore to ensure the finest quality and result oriented capacity building programs. CBSC provides ‘one-stop solution’ for all relevant logistical facilities and services pertaining to implementation of the program</p>
-                </div>
+				 
+					<div class="info-blocks-in">
+						<div class="col-sm-6 info-blocks">
+							<i class="icon-info-blocks material-icons">card_travel</i>
+							<h3>Training</h3>
+							<div class="line"></div>
+							<p>CBCS works in association with reputed Training Agencies, Institutes and Universities, Education Institutions in Singapore to ensure the finest quality and result oriented capacity building programs. CBCS provides ‘one-stop solution’ for all relevant logistical facilities and services pertaining to implementation of the program</p>
+						</div>
+						<div class="col-sm-6 info-blocks"> 
+							<img style="width: 63%;" src="<?php echo base_url(); ?>assets/img/IMG_1291.JPG" alt="" />
+						</div>
+					</div>
+				</div>
+				
             </div>
             <!-- <div class="col-sm-4 info-blocks">
                 <div class="info-blocks-in">
