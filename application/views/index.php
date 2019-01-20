@@ -82,7 +82,7 @@
 							<p>CBCS works in association with reputed Training Agencies, Institutes and Universities, Education Institutions in Singapore to ensure the finest quality and result oriented capacity building programs. CBCS provides ‘one-stop solution’ for all relevant logistical facilities and services pertaining to implementation of the program</p>
 						</div>
 						<div class="col-sm-6 info-blocks"> 
-							<img style="width: 63%;" src="<?php echo base_url(); ?>assets/img/IMG_1291.JPG" alt="" />
+							<img style="width: 100%; margin-top: -45px; margin-right: -70px; margin-bottom: -60px;" src="<?php echo base_url(); ?>assets/img/IMG_1291.JPG" alt="" />
 						</div>
 					</div>
 				</div>
