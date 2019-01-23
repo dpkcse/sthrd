@@ -4,17 +4,20 @@
 				<!-- social icon-->
 				<div class="col-sm-3">
 				   <ul class="social-network">
-					<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-facebook"></i></a></li>
-					<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-twitter"></i></a></li>
-					<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-linkedin"></i></a></li>
-					<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-pinterest"></i></a></li>
-					<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-google-plus"></i></a></li>
-				</ul>
+						<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-pinterest"></i></a></li>
+						<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
 				</div>
-				<div class="col-sm-9">
+				<div class="col-sm-3">
+					<div id="clock" class="clock">loading ...</div>
+				</div>
+				<div class="col-sm-6">
 					<div class="row">
 						<ul class="info"> 
-							<li><i class="icon-info-blocks material-icons">question_answer</i><span>info@CBCS.com</span></li>
+							<li><i class="icon-info-blocks material-icons">question_answer</i><span>info@cbcs.com.sg</span></li>
 							<li><i class="icon-info-blocks material-icons">perm_phone_msg</i><span>(+65) 6396 6293/6341</span></li>
 						</ul>
 						<div class="clr"></div>

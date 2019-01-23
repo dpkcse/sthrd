@@ -26,7 +26,7 @@
 <meta name="msapplication-TileImage" content="<?php echo base_url(); ?>assets/favico/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 <!-- css --> 
-<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/materialize/css/materialize.min.css" media="screen,projection" />
 <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -38,6 +38,8 @@
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    
 
 </head>
 <body>

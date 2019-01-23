@@ -12,7 +12,7 @@
 					<p>
 						<i class="icon-info-blocks material-icons" style="font-size: 14px;">call</i> (+65) 6396 6293/6341
 						<i class="icon-info-blocks material-icons" style="font-size: 14px;">print</i> (+65) 6291 7550
-						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@CBCS.com</a>
+						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@cbcs.com.sg</a>
 					</p>
 						
 					</div>
@@ -46,6 +46,18 @@
 <script src="<?php echo base_url(); ?>assets/js/jquery.magnific-popup.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/animate.js"></script> 
 <script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
+<script>
+	$(document).ready(function(){
+
+		function update() {
+			$('#clock').html(moment().format('D MMMM YYYY H:mm:ss'));
+		}
+
+		setInterval(update, 1000);
+	});
+</script>
+
 </body>
 
 <!-- Mirrored from webthemez.com/demo/xtream-corporate-responsive-website-template/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Dec 2018 16:44:30 GMT -->
