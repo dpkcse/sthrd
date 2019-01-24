@@ -19,27 +19,6 @@
 			<?php
 				}
 			} ?>
-			<!-- <li>
-                <img src="<?php echo base_url(); ?>assets/img/slides/1.jpg" alt="" />
-                <div class="flex-caption" style="text-align: right !important;">
-                    <h3>Business  Intellect</h3> 
-					<p>We create best opportunities</p> 
-				</div>
-              </li> -->
-              <!-- <li>
-                <img src="<?php echo base_url(); ?>assets/img/slides/2.jpg" alt="" />
-                <div class="flex-caption">
-                    <h3>Innovative Minds</h3> 
-					<p>Success depends on productivity</p> 
-				</div>
-			  </li>
-			  <li>
-                <img src="<?php echo base_url(); ?>assets/img/slides/3.jpg" alt="" />
-                <div class="flex-caption">
-                    <h3>Exploring Knowledge</h3> 
-					<p>Peer to peer knowledge sharing</p> 
-				</div>
-              </li> -->
             </ul>
         </div>
 	<!-- end slider --> 
@@ -50,7 +29,7 @@
 	
 	
 		<section class="services">
-	    	<div class="row">
+	    	<div class="row coutomROw" style="margin-bottom: 0px">
 			<div class="col-md-12">
 				<div class="aligncenter" style="margin-top: 40px;"><h2 class="aligncenter">Capacity Building Consistency Services Pte. Ltd. (CBCS)</h2>Company UEN: 201841874K, 30 Robarts Lane # 02-01, Singapore 218309<br/> <p>
 						<i class="icon-info-blocks material-icons" style="font-size: 14px;">call</i> (+65)  6396 6293/6341

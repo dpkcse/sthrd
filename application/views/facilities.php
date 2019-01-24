@@ -21,29 +21,15 @@
 				<div class="row showcase-section">
 				<div class="col-md-6 col-sm-6">
 						<div class="about-text">
-							<!-- <p>CBSC services are available for individuals and also groups for training programs, conference, seminars and courses. It has the support of an organized office that includes: efficient support staff, adequate and neat office accommodation, requisite office equipment and aids,  organized and communication system, logistic and utilities, supply of quality food. </p> -->
+							<h3><span class="color">Our Facilities</span> </h3>
 							<?php if(COUNT($program) > 0){ ?>
-								<!-- <p> </p> -->
 								<p><?php echo $program[0]->facilities_desc; ?></p>
 							<?php } ?>
-							<!-- <ul class="withArrow">
-								<li><span class="fa fa-angle-right"></span> Efficient support staff</li>
-								<li><span class="fa fa-angle-right"></span> Adequate and neat office accommodation</li>
-								<li><span class="fa fa-angle-right"></span> Requisite office equipment and aids</li>
-								<li><span class="fa fa-angle-right"></span> Organized and communication system</li>
-								<li><span class="fa fa-angle-right"></span> Logistic and utilities</li>
-								<li><span class="fa fa-angle-right"></span> Seminar/conference arrangement facilities</li>
-								<li><span class="fa fa-angle-right"></span> Supply of quality food</li>
-								<li><span class="fa fa-angle-right"></span> Supply of quality training materials</li>
-								<li><span class="fa fa-angle-right"></span>Training aids like multi media projector, computer etc</li>
-								
-							</ul> -->
+							
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<div class="about-image" style="text-align:center;">
-							<img src="<?php echo base_url(); ?>assets/img/Facilities.png" alt="About Images" style="width: 31%;">
-						</div>
+						<img style="width:548px; height: 298px;" src="<?php echo base_url(); ?>assets/img/Facilities.png" alt="About Images" style="width: 31%;">
 					</div>
 				</div>
 			</div>

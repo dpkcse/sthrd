@@ -20,16 +20,14 @@
 			<div class="container">
 				<div class="row showcase-section">
 					<div class="col-md-6">
-						<img style="padding: 0% 0 0 20%;" src="<?php echo base_url(); ?>assets/img/Mission.jpg" alt="showcase image">
+						<img style="width:548px; height: 298px;" src="<?php echo base_url(); ?>assets/img/Mission.jpg" alt="showcase image">
 					</div>
 					<div class="col-md-6">
 						<div class="about-text">
 							<h3><span class="color">Mission</span></h3>
 							<?php if(COUNT($program) > 0){ ?>
-								<!-- <p> </p> -->
 								<p><?php echo $program[0]->mnv_mission; ?></p>
 							<?php } ?>
-							<!-- <p>Ensure organizational effectiveness and global development by provide consultancy support to organizing and implementing high-quality training, study tour, skill enhancement and capacity building programs in Singapore for foreign clients through reputed training institute and Universities.</p> -->
 						</div>
 					</div>
 				</div>

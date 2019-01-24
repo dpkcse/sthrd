@@ -16,7 +16,7 @@ body {
 	background: #f5f5f5;
 }
 a {
-    color: #93c83f;
+    color: #0959be;
     text-decoration: none;
 }
 a:active {
@@ -30,7 +30,7 @@ a:active {
 h1,h2{
 	font-weight: 600;
 	line-height:1.1em;
-	color: #252525;
+	color: #555;
 	margin-bottom: 20px;
 	text-transform: uppercase;
 }
@@ -71,7 +71,7 @@ ul.withArrow li{
 ul.withArrow li span{
 	margin-right: 10px;
 	font-weight: 700;
-	color: #93c83f;
+	color: #0959be;
 	border: 1px solid;
 	padding: 4px 8px;
 	font-size: 11px;
@@ -82,7 +82,7 @@ ul.withArrow li span{
 .line{
 	width: 20%;
 	height: 2px;
-	background: #93c83f;
+	background: #0959be;
 	margin: 0 auto;
 	margin-bottom: 20px;
 }
@@ -157,7 +157,7 @@ header .navbar {
 }
 
 .topbar ul.info i {
-    color: #93c83f;
+    color: #0959be;
     font-size: 16px;
     font-style: normal;
     margin-right: 8px;
@@ -270,13 +270,13 @@ header  .navbar-nav > li > a {
 	
 }
 .dishes{
-	background: #93c83f;
+	background: #0959be;
 	padding: 35px 0;
 	color: #1b1b1b;
 }
 .dropdown-menu li a:hover {
     color: #fff !important;
-    background: #93c83f !important;
+    background: #0959be !important;
 }
 
 header .nav .caret {
@@ -411,9 +411,9 @@ header ul.nav li ul li ul {
 .navbar-default .navbar-nav>.active>a:hover, 
 .navbar-default .navbar-nav>.active>a:focus {
 	/* color: #ffffff; */
-	/* background: #93c83f; */
+	/* background: #0959be; */
 	color: #1e73be;
-	/* border-bottom: 5px SOLID #93c83f !important; */
+	/* border-bottom: 5px SOLID #0959be !important; */
 }
 
 
@@ -541,7 +541,7 @@ right:0px;
 	text-align: left;
 } */
 
-.flex-caption h3 {    display: none; color: #93c83f;letter-spacing: 0px;margin-bottom: 8px;text-transform: uppercase;font-size: 54px;font-weight: 700;}
+.flex-caption h3 {    display: none; color: #0959be;letter-spacing: 0px;margin-bottom: 8px;text-transform: uppercase;font-size: 54px;font-weight: 700;}
 .flex-caption p {
 	margin: 12px 0 18px 4px;
     font-family: Lato;
@@ -647,6 +647,15 @@ background-size: cover;
 -moz-background-size: cover;
 -ms-background-size: cover;
 }
+
+.coutomROw {
+	padding: 0 0 0 0;
+	margin:0;
+	background: url(../images/bg/spiration-light.png) fixed center center;
+}
+
+
+
 .testimonial-solid p {
 color: #000000;
 font-size: 16px;
@@ -698,7 +707,7 @@ section.hero-text h1{
 #content {
 	position:relative;
 	/* background: #ffffff; */
-	padding:50px 0 0px 0;
+	padding:30px 0 0px 0;
 }
  
 .cta-text {
@@ -1055,7 +1064,7 @@ background: #32c8de;
 	margin-bottom:20px;
 }
 .info-blocks {margin-bottom: 15px;/* background: #efefef; */}
-.info-blocks i.icon-info-blocks {/* float: left; */color: #93c83f;font-size: 48px;min-width: 50px;margin-bottom: 15px;text-align: center;/* background: #ffffff; */width: 72px;/* height: 72px; *//* padding-top: 21px; *//* border: 1px solid #e0e0e0; *//* line-height: 75px; */width: 100%;}
+.info-blocks i.icon-info-blocks {/* float: left; */color: #0959be;font-size: 48px;min-width: 50px;margin-bottom: 15px;text-align: center;/* background: #ffffff; */width: 72px;/* height: 72px; *//* padding-top: 21px; *//* border: 1px solid #e0e0e0; *//* line-height: 75px; */width: 100%;}
 .info-blocks .info-blocks-in {padding: 46px 22px;overflow: hidden;border: 1px solid #dedede;text-align: center;background: #fff;}
 .info-blocks .info-blocks-in h3 {color: #202020;font-size: 22px;line-height: 28px;margin:0px;margin-bottom: 8px;/* font-weight: bold; */}
 .info-blocks .info-blocks-in p {
@@ -1066,7 +1075,7 @@ background: #32c8de;
     text-align: justify;
 }
 .info-blocks .info-blocks-in:hover{
-	border: 1px solid #93c83f;
+	border: 1px solid #0959be;
 }  
 blockquote {
 	font-size:16px;
@@ -1106,7 +1115,7 @@ blockquote cite a:visited 				{ color:#555; }
 }
 
 /* --- button --- */
-.btn{text-align: center;color: #FFFFFF;background: #93c83f;border-color: #93c83f;width: 120px;border-radius: 0;}
+.btn{text-align: center;color: #FFFFFF;background: #0959be;border-color: #0959be;width: 120px;border-radius: 0;}
 .btn-theme {
 	color: #fff;
 	background: transparent;
@@ -1141,7 +1150,7 @@ footer ul.link-list li a{
 	color: #8C8C8C;
 }
 footer ul.link-list li a:hover {
-	color: #93c83f;
+	color: #0959be;
 }
 /* --- Heading style --- */
 
@@ -1269,7 +1278,7 @@ ul.team-detail li ul.social-network li i {
  }
  
  .navbar-brand i {
-    color: #93c83f;
+    color: #0959be;
     font-size: 26px;
     margin-right: 5px;
     position: relative;
@@ -1420,7 +1429,7 @@ color: #fff;
 	background: #ff5722;
 	color: #fff;
 } 
-.menuItem .menu{font-size:20px;font-weight:600;list-style:none;padding:0 0 15px;margin-bottom:20px;display:inline-block;color: #93c83f;}
+.menuItem .menu{font-size:20px;font-weight:600;list-style:none;padding:0 0 15px;margin-bottom:20px;display:inline-block;color: #0959be;}
 .menuItem .menu li{padding: 16px 30px 0px;margin-bottom: 0;display:inline-block;width:100%;float:left;background: #ffffff;line-height: 30px;border-left: 2px solid #d6d6d6;border-radius: 0;}
 .menuItem .detail{
 font-size:13px;
@@ -1486,7 +1495,7 @@ font-weight:600;
     display: block;
 }
 .testimonials span.testimonials-name {
-    color: #93c83f;
+    color: #0959be;
     font-size: 16px;
     font-weight: 300;
     margin: 23px 0 7px;
@@ -1547,7 +1556,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #93c83f;
+	color: #0959be;
 }
 
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6{
@@ -1621,7 +1630,7 @@ ul.social-network li {
     height:32px;
     bottom:0px;
     right:20px;
-    background: #93c83f;
+    background: #0959be;
 }
 
 a.scrollup {
@@ -1839,7 +1848,7 @@ header  .navbar-nav > li > a{
 		float: none;
 		width: 100%;
 	}
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover {background: none;font-weight: 700;color: #93c83f;}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover {background: none;font-weight: 700;color: #0959be;}
 	header .navbar-nav > li {
 padding-bottom: 2px;
 padding-top: 3px;
@@ -2019,7 +2028,7 @@ padding-top: 3px;
 	border: 1px solid #eaeaea;
 	background: #fff;
 }
-.active .collapsible-header{color: #93c83f;} 
+.active .collapsible-header{color: #0959be;} 
 span.color {
     color: #0a2068;
     text-transform: uppercase;
@@ -2097,13 +2106,13 @@ ul.breadcrumbCus li a:hover {
 
 .section-padding .section-title h2{
 	color: #cccccc;
-    border: 1px solid #93c83f;
+    border: 1px solid #0959be;
     padding: 15px 0px;
     border-radius: 8px;
 }
 
 .flex-control-paging li a.flex-active {
-    background: #93c83f !important;
+    background: #0959be !important;
 }
 
 .about-text{

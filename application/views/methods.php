@@ -21,40 +21,14 @@
 				<div class="row showcase-section">
 				<div class="col-md-6 col-sm-6">
 						<div class="about-text">
-							<!-- <p>Instructional methods include classroom lecture followed by</p>
-
-							<ul class="withArrow">
-								<li><span class="fa fa-angle-right"></span> Discussion</li>
-								<li><span class="fa fa-angle-right"></span> Demonstration and exercise</li>
-								<li><span class="fa fa-angle-right"></span> Case study</li>
-								<li><span class="fa fa-angle-right"></span> Films</li>
-								<li><span class="fa fa-angle-right"></span> Field visits</li>
-								<li><span class="fa fa-angle-right"></span> Report writing and presentation</li>
-								
-							</ul>
-							<br /> -->
+							<h3><span class="color">Methods and Media</span> </h3>
 							<?php if(COUNT($program) > 0){ ?>
-								<!-- <p> </p> -->
 								<p><?php echo $program[0]->mnm_desc; ?></p>
 							<?php } ?>
-							<!-- <p>Instructional methods of respective training providers of CBSC include classroom lecture followed by discussion, demonstration and exercise, case study, films, field visits, report writing and presentation. Reading materials are carefully prepared and distributed among the trainees. For better comprehension audio-visual aide are widely used by flip chart, panel board, white board, diagrams, maps, multimedia projector and videocassettes in relevance to the topic. In addition to the taught modules of the center, every course has scope and some built-in features like opportunity for group discussion, free exchange of views, workshop, optional project work/case studies etc.</p> -->
-
-							<!-- <ul class="withArrow">
-								<li><span class="fa fa-angle-right"></span> Flip chart</li>
-								<li><span class="fa fa-angle-right"></span> Panel board</li>
-								<li><span class="fa fa-angle-right"></span> White board</li>
-								<li><span class="fa fa-angle-right"></span> Diagrams</li>
-								<li><span class="fa fa-angle-right"></span> Maps</li>
-								<li><span class="fa fa-angle-right"></span> Multimedia projector and videocassettes in relevance to the topic</li>
-								
-							</ul>
-							<p>In addition to the taught modules of the center, every course has scope and some built-in features like opportunity for group discussion, free exchange of views, workshop, optional project work/case studies etc.</p> -->
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<div class="about-image" style="text-align: center;">
-							<img src="<?php echo base_url(); ?>assets/img/media.jpg" alt="About Images"  style="width: 66%;">
-						</div>
+						<img style="width:548px; height: 298px;" src="<?php echo base_url(); ?>assets/img/media.jpg" alt="About Images"  style="width: 66%;">
 					</div>
 				</div>
 			</div>
