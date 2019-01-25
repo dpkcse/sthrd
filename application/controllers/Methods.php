@@ -33,6 +33,11 @@ class Methods extends CI_Controller {
 		$data = array();
 		$data['title'] = "Methods and Media";
 		$data['program'] = $this->Crud_model->getAll_limit('cbsc_mnm','1');
+		$this->db->select('image');
+		$this->db->from('cbsc_inner_img');
+		$this->db->where('page_name','media');
+		$reault_array = $this->db->get()->result_array();
+		$data['img'] = $reault_array[0]['image'];
 		$this->load->view('methods',$data);
 	}
 }

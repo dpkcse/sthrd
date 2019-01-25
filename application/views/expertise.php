@@ -28,7 +28,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<img style="width:548px; height: 321px;" src="<?php echo base_url(); ?>assets/img/expertise.jpg" alt="About Images"  style="width:50%;">
+						<img style="width:548px; height: 321px;"  src="<?php echo base_url(); ?>upload/<?php echo $img; ?>" alt="About Images">
 						
 					</div>
 				</div>

@@ -20,7 +20,7 @@
 			<div class="container">
 				<div class="row showcase-section">
 					<div class="col-md-6">
-						<img style="width:548px; height: 366px;" src="<?php echo base_url(); ?>assets/img/approch.jpg" alt="showcase image">
+						<img style="width:548px; height: 366px;"  src="<?php echo base_url(); ?>upload/<?php echo $img; ?>" alt="showcase image">
 					</div>
 					<div class="col-md-6">
 						<div class="about-text">

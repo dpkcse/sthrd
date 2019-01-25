@@ -90,6 +90,17 @@ class Admin extends CI_Controller {
 		} else {
 			redirect('admin/login');
 		}
+	} 
+
+    public function inner(){
+		if ($this->session->userdata('admin_login') == 1) {
+			$data = array();
+			$data['title'] = "Inner Page Images";
+			$data['allImg'] = $this->Crud_model->getAll_limit('cbsc_inner_img','20');
+			$this->load->view('admin/inner_page',$data);
+		} else {
+			redirect('admin/login');
+		}
 	}
 	
 	public function home_page_save(){
@@ -105,7 +116,7 @@ class Admin extends CI_Controller {
 	
 			$config = array(
 				'upload_path'	=> './upload/',
-				'allowed_types' => 'jpg|png|jpeg',
+				'allowed_types' => 'JPEG|PNG|JPG|jpg|png|jpeg',
 				'max_size'		=> 1000,
 				'max_width' 	=> 2000,
 				'max_height' 	=> 500,
@@ -123,6 +134,41 @@ class Admin extends CI_Controller {
 
 			$this->Crud_model->insertData('cbsc_slider',$inputdata);
 			redirect('admin/home_page');
+
+		} else {
+			redirect('admin/login');
+		}
+    }	
+	public function inner_page_save(){
+		if ($this->session->userdata('admin_login') == 1) {
+			$data = array();
+			$data['title'] = "Inner Page Images";
+			
+
+			$inputdata = array(
+				'page_name' 	=> $this->input->post('page_name',true)
+			);
+	
+			$config = array(
+				'upload_path'	=> './upload/',
+				'allowed_types' =>  'JPEG|PNG|JPG|jpg|png|jpeg',
+				'max_size'		=> 1000,
+				'max_width' 	=> 2000,
+				'max_height' 	=> 500,
+			);
+
+			$this->load->library('upload', $config);
+
+			if ( ! $this->upload->do_upload('inputFile')) {
+					$error =  $this->upload->display_errors();
+					echo $error;
+			}else {
+					$img1 =  $this->upload->data();
+					$inputdata['image'] = date("Y.m.dhms").$img1['file_name'];
+			}
+
+			$this->Crud_model->insertData('cbsc_inner_img',$inputdata);
+			redirect('admin/inner');
 
 		} else {
 			redirect('admin/login');

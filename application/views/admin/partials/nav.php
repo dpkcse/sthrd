@@ -34,6 +34,9 @@
 				<a href="<?php echo base_url(); ?>index.php/Admin/home_page" class=" hvr-bounce-to-right"><i class="fa fa-cog nav_icon"></i> <span class="nav-label">HOME PAGE IMAGE</span></a>
 			</li>
 			<li>
+				<a href="<?php echo base_url(); ?>index.php/Admin/inner" class=" hvr-bounce-to-right"><i class="fa fa-cog nav_icon"></i> <span class="nav-label">INNER PAGE IMAGE</span></a>
+			</li>
+			<li>
 				<a href="<?php echo base_url(); ?>index.php/Admin/program" class=" hvr-bounce-to-right"><i class="fa fa-picture-o nav_icon"></i> <span class="nav-label">HOME PAGE PROGRAM</span> </a>
 			</li>
 			<li>

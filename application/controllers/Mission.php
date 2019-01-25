@@ -30,6 +30,11 @@ class Mission extends CI_Controller {
 		$data = array();
 		$data['title'] = "Mission";
 		$data['program'] = $this->Crud_model->getAll_limit('cbsc_mnv','1');
+		$this->db->select('image');
+		$this->db->from('cbsc_inner_img');
+		$this->db->where('page_name','mission');
+		$reault_array = $this->db->get()->result_array();
+		$data['img'] = $reault_array[0]['image'];
 		$this->load->view('mission',$data);
 	}
 }

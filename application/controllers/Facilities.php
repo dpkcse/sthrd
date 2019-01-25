@@ -34,6 +34,11 @@ class Facilities extends CI_Controller {
 		$data = array();
 		$data['title'] = "Facilities";
 		$data['program'] = $this->Crud_model->getAll_limit('cbsc_facilities','1');
+		$this->db->select('image');
+		$this->db->from('cbsc_inner_img');
+		$this->db->where('page_name','facilities');
+		$reault_array = $this->db->get()->result_array();
+		$data['img'] = $reault_array[0]['image'];
 		$this->load->view('facilities',$data);
 	}
 }
