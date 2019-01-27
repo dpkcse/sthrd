@@ -2164,3 +2164,33 @@ ul.breadcrumbCus li a:hover {
 #banner{
 	margin-top: 114px;
 }
+
+.flexslider .slides {
+	overflow:hidden;
+	
+}
+
+.flexslider>.slides img{
+	-webkit-transition: all 6s ease !important;
+	-moz-transition: all 6s ease !important;
+	-ms-transition: all 6s ease !important;
+	-o-transition: all 6s ease !important;
+	transition: all 6s ease !important;
+}
+
+.flexslider>.slides>.flex-active-slide>img{
+	-webkit-transform: scale(1.2) !important;
+	-moz-transform: scale(1.2) !important;
+	-o-transform: scale(1.2) !important;
+	-ms-transform: scale(1.2) !important; /* IE 9 */ 
+	transform: scale(1.2) !important;
+}
+
+
+#inner-headline {
+	background-color: rgb(0, 0, 0);
+	background-image: url(http://www.zingerbugimages.com/backgrounds/indigo_textured_rock_seamless_pattern.jpg);
+	background-position: top left;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
