@@ -358,5 +358,12 @@ class Admin extends CI_Controller {
 		} else {
 			redirect('admin/login');
 		}
-    }    
+	}  
+	
+	public function delete_data($tnl_name,$id){
+		$this->db->delete($tnl_name, array('id' => $id)); 
+		if($tnl_name == 'cbsc_slider'){
+			redirect('admin/home_page');
+		}
+	}
 }

@@ -76,7 +76,7 @@
                                     <td><?php echo $item->head_one; ?></td>
                                     <td><?php echo $item->head_two; ?></td>
                                     <td><img src="<?php echo base_url(); ?>upload/<?php echo $item->image; ?>" style="width:100%; min-height:auto; max-height:50px; border-radius:14px;"></td>
-                                    <td><a href="<?php echo $item->id; ?>"><button class="btn btn-danger btn-xs" data-title="Delete">Delete</button></a></td>
+                                    <td><a href="<?php echo base_url(); ?>index.php/Admin/delete_data/cbsc_slider/<?php echo $item->id; ?>"><button class="btn btn-danger btn-xs" data-title="Delete">Delete</button></a></td>
                                 </tr>
                             <?php
                                 }
