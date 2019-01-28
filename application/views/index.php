@@ -31,7 +31,7 @@
 		<section class="services">
 	    	<div class="row coutomROw" style="margin-bottom: 0px">
 			<div class="col-md-12">
-				<div class="aligncenter" style="margin-top: 40px;"><h2 class="aligncenter">Capacity Building Consistency Services Pte. Ltd. (CBCS)</h2>Company UEN: 201841874K, 30 Robarts Lane # 02-01, Singapore 218309<br/> <p>
+				<div class="aligncenter" style="margin-top: 40px;"><h2 class="aligncenter" style="text-shadow: 0px 0px 8px #036ddb;">Capacity Building Consistency Services Pte. Ltd. (CBCS)</h2>Company UEN: 201841874K, 30 Robarts Lane # 02-01, Singapore 218309<br/> <p>
 						<i class="icon-info-blocks material-icons" style="font-size: 14px;">call</i> (+65)  6396 6293/6341
 						<i class="icon-info-blocks material-icons" style="font-size: 14px;">email</i> <a href="mailto:info@sthrd.com?Subject=Hello%" target="_top">info@cbcs.com.sg</a>
 					</p></a></div>
