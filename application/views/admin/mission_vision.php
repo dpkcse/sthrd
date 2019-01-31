@@ -52,14 +52,14 @@
                         <?php if(COUNT($program_text) > 0){ ?>
                             <p><?php echo $program_text[0]->mnv_mission; ?></p>   
                             <div style="margin-top: 10px;"></div>
-                            <a href="<?php echo $program_text[0]->id; ?>"><button class="btn btn-danger btn-xs" data-title="Delete">Delete</button></a> 
+                            <a href="<?php echo base_url(); ?>index.php/Admin/delete_data/cbsc_mnv/<?php echo $program_text[0]->id; ?>"><button class="btn btn-danger btn-xs" data-title="Delete">Delete</button></a> 
                         <?php } ?>
                         <div style="margin-top: 10px;"></div>
                         <h4>Vision</h4>
                         <?php if(COUNT($program_text) > 0){ ?>
                             <p><?php echo $program_text[0]->mnv_vision; ?></p>   
                             <div style="margin-top: 10px;"></div>
-                            <a href="<?php echo $program_text[0]->id; ?>"><button class="btn btn-danger btn-xs" data-title="Delete">Delete</button></a> 
+                            <a href="<?php echo base_url(); ?>index.php/Admin/delete_data/cbsc_mnv/<?php echo $program_text[0]->id; ?>"><button class="btn btn-danger btn-xs" data-title="Delete">Delete</button></a> 
                         <?php } ?>
                     </div>
                 </div>

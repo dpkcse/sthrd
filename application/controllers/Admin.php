@@ -362,8 +362,37 @@ class Admin extends CI_Controller {
 	
 	public function delete_data($tnl_name,$id){
 		$this->db->delete($tnl_name, array('id' => $id)); 
+		
 		if($tnl_name == 'cbsc_slider'){
 			redirect('admin/home_page');
+		}
+		
+		if($tnl_name == 'cbsc_approch'){
+			redirect('admin/approch');
+		}
+		
+		if($tnl_name == 'cbsc_facilities'){
+			redirect('admin/facilities');
+		}
+		
+		if($tnl_name == 'cbsc_speciality'){
+			redirect('admin/speciality');
+		}
+
+		if($tnl_name == 'cbsc_mnv'){
+			redirect('admin/mission_vision');
+		}
+		
+		if($tnl_name == 'cbsc_mnm'){
+			redirect('admin/methods_media');
+		}
+
+		if($tnl_name == 'cbsc_expertise'){
+			redirect('admin/expertise');
+		}
+		
+		if($tnl_name == 'cbsc_wwa'){
+			redirect('admin/who_we_are');
 		}
 	}
 }

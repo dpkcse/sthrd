@@ -47,7 +47,7 @@
                     <?php if(COUNT($program_text) > 0){ ?>
                         <p><?php echo $program_text[0]->mnm_desc; ?></p>   
                         <div style="margin-top: 10px;"></div>
-                        <a href="<?php echo $program_text[0]->id; ?>"><button class="btn btn-danger btn-xs" data-title="Delete">Delete</button></a> 
+                        <a href="<?php echo base_url(); ?>index.php/Admin/delete_data/cbsc_mnm/<?php echo $program_text[0]->id; ?>"><button class="btn btn-danger btn-xs" data-title="Delete">Delete</button></a> 
                     <?php } ?>
                     </div>
                 </div>
