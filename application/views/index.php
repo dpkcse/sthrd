@@ -147,7 +147,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-title text-center">
-						<h2>Our task to conduct Training/Study Tour Program</h2>
+						<h2>Our task to conduct Training Consultancy Services</h2>
 						
 					</div>
 				</div>
