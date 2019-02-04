@@ -24,7 +24,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="about-text">
-							<h3><span class="color">Vision</span></h3>
+							<h3><span class="color">Our Vision</span></h3>
 							<?php if(COUNT($program) > 0){ ?>
 								<p><?php echo $program[0]->mnv_vision; ?></p>
 							<?php } ?>
