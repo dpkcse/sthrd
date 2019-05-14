@@ -1984,6 +1984,11 @@ padding-top: 3px;
     		margin-right: 0px !important;
     		margin-bottom: 0px !important;
 	}
+	
+	.showcase-section img{
+		width: 330px !important;
+    		height: 258px !important;
+	}
 
 
 	.search{
