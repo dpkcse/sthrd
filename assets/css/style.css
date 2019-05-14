@@ -1974,6 +1974,16 @@ padding-top: 3px;
 	.cus1 .container{
 		padding:0;
 	}
+	
+	.info-blocks-in .info-blocks{
+		float: left;
+    		width: 100%;
+	}
+	.info-blocks-in .info-blocks img{
+		margin-top: 0px;
+    		margin-right: 0px;
+    		margin-bottom: 0px;
+	}
 
 
 	.search{
