@@ -1970,6 +1970,10 @@ padding-top: 3px;
 		float:left;
 		margin-top:20px;
 	}
+	
+	.cus1 .container{
+		padding:0;
+	}
 
 
 	.search{
@@ -1997,7 +2001,7 @@ padding-top: 3px;
 	}
 
 	.navbar-brand img{
-		width: 95% !important;
+		width: 48% !important;
 	}
 
 	.topbar .col-sm-3{
